@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "PanzaMail Extension",
+    "version": "1.0",
+    "description": "An extension to check for the subject input box on Gmail Sent Mail page.",
+    "permissions": [
+      "activeTab",
+      "nativeMessaging"
+    ],
+    "background": {
+      "scripts": ["scripts/background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/mail/u/*/"],
+        "js": ["scripts/content.js"]
+      }
+    ]
+  }

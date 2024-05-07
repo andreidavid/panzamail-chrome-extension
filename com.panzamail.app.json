@@ -1,0 +1,9 @@
+{
+    "name": "com.panzamail.app",
+    "description": "PanzaMail Native Messaging Host",
+    "path": "/Users/andreidavid/Projects/panza-mail/app.py",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://eadogehalnlepodlenljnficmdbcdoja/"
+    ]
+  }
